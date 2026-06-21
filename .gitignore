@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage
+*.lcov
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Project specific
+frontend/dist/
+frontend/dist-ssr/
+backend/dist/
+backend/logs/
+uploads/
