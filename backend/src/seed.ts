@@ -13,14 +13,14 @@ import bcrypt from 'bcryptjs';
 dotenv.config();
 
 const indianNames = [
-  { name: 'Aarav Patel', email: 'aarav.patel@worksphere.com', role: 'Employee', position: 'Frontend Developer', department: 'Engineering' },
-  { name: 'Priya Singh', email: 'priya.singh@worksphere.com', role: 'Manager', position: 'Engineering Manager', department: 'Engineering' },
-  { name: 'Rohan Sharma', email: 'rohan.sharma@worksphere.com', role: 'Employee', position: 'Backend Developer', department: 'Engineering' },
-  { name: 'Anjali Desai', email: 'anjali.desai@worksphere.com', role: 'HR', position: 'HR Specialist', department: 'Human Resources' },
-  { name: 'Vivek Kumar', email: 'vivek.kumar@worksphere.com', role: 'Employee', position: 'QA Engineer', department: 'Quality Assurance' },
-  { name: 'Neha Gupta', email: 'neha.gupta@worksphere.com', role: 'Employee', position: 'UI/UX Designer', department: 'Design' },
-  { name: 'Siddharth Mehta', email: 'siddharth.mehta@worksphere.com', role: 'Employee', position: 'DevOps Engineer', department: 'Engineering' },
-  { name: 'Aditi Rao', email: 'aditi.rao@worksphere.com', role: 'Admin', position: 'System Administrator', department: 'IT' },
+  { name: 'Aarav Patel', email: 'aarav.patel@worksphere.com', role: 'Employee', position: 'Frontend Developer', department: 'Engineering', skills: ['React', 'TypeScript', 'Tailwind'] },
+  { name: 'Priya Singh', email: 'priya.singh@worksphere.com', role: 'Manager', position: 'Engineering Manager', department: 'Engineering', skills: ['Management', 'Agile', 'Node.js'] },
+  { name: 'Rohan Sharma', email: 'rohan.sharma@worksphere.com', role: 'Employee', position: 'Backend Developer', department: 'Engineering', skills: ['Node.js', 'MongoDB', 'Express'] },
+  { name: 'Anjali Desai', email: 'anjali.desai@worksphere.com', role: 'HR', position: 'HR Specialist', department: 'Human Resources', skills: ['Recruiting', 'Communication', 'Agile'] },
+  { name: 'Vivek Kumar', email: 'vivek.kumar@worksphere.com', role: 'Employee', position: 'QA Engineer', department: 'Quality Assurance', skills: ['Testing', 'Cypress', 'Jest'] },
+  { name: 'Neha Gupta', email: 'neha.gupta@worksphere.com', role: 'Employee', position: 'UI/UX Designer', department: 'Design', skills: ['Figma', 'UI/UX', 'CSS'] },
+  { name: 'Siddharth Mehta', email: 'siddharth.mehta@worksphere.com', role: 'Employee', position: 'DevOps Engineer', department: 'Engineering', skills: ['AWS', 'Docker', 'CI/CD'] },
+  { name: 'Aditi Rao', email: 'aditi.rao@worksphere.com', role: 'Admin', position: 'System Administrator', department: 'IT', skills: ['Linux', 'Networking', 'Security'] },
 ];
 
 const indianClients = [
