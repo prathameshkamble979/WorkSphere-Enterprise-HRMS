@@ -65,6 +65,7 @@ const seedDatabase = async () => {
         lastName: nameParts[1] || '',
         status: 'Active',
         joiningDate: new Date(Date.now() - Math.random() * 10000000000),
+        skills: person.skills || [],
       });
 
       createdEmployees.push(employee);
