@@ -28,11 +28,7 @@ app.use(helmet({
   crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
 app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://work-sphere-enterprise-hrms.vercel.app',
-    process.env.FRONTEND_URL || ''
-  ].filter(Boolean),
+  origin: true, // Allow any origin to connect (useful for dynamic Vercel preview URLs)
   credentials: true,
 }));
 app.use(express.json());
