@@ -56,7 +56,7 @@ Built with performance, scalability, and developer experience in mind, this proj
 *(To fully experience the application, visit the [Live Demo](https://work-sphere-enterprise-hrms.vercel.app/))*
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/15697dbb-2aeb-4a11-8bc6-eb5e3535eddd" alt="WorkSphere Login Screen" width="800"/>
+  <img src="./screenshots/login.png" alt="WorkSphere Login Screen" width="800"/>
   <p><em>Secure Authentication Portal</em></p>
 </div>
 
